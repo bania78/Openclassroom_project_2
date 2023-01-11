@@ -1,14 +1,62 @@
 .nav_header {
-    display: flex;
-    align-items: flex-start;
+    margin: 20px;
+    padding: 50px;
     justify-content: space-between;
 }
 
 a {
+    margin: 30px;
     color: black;
     text-decoration: none;
+    font-size: 1.2em;
 }
 
 a:hover {
     color: blue;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+h1, h2, .h3_f, form, .end_header {
+    margin-left: 75px;
+}
+
+h2 {
+    font-weight: normal;
+    color: gray;
+}
+
+.p_f {
+    display: inline;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+.filtres, .nav_header, form {
+    display: flex;
+    align-items: flex-start;
+}
+
+.nav_header {
+    justify-content: space-between;
+}
+
+ul, li {
+    list-style: none;
+    display: table-cell;
+}
+
+li {
+    border:1px solid grey;
+}
+
+.p_f {
+    margin: 5px;
 }
