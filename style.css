@@ -37,9 +37,11 @@ button {
     background-color: blue;
     border: none;
     color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
-.filtres, .nav_header, form {
+.filtres, .nav_header, form, .end_header {
     display: flex;
     align-items: flex-start;
 }
@@ -55,8 +57,14 @@ ul, li {
 
 li {
     border:1px solid grey;
+    border-radius: 30px;
 }
 
 .p_f {
     margin: 5px;
+}
+
+.fas, .fa-solid {
+    color: blue;
+    margin-left: 10px;
 }
