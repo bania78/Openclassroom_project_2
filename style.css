@@ -37,8 +37,8 @@ button {
     background-color: blue;
     border: none;
     color: white;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .filtres, .nav_header, form, .end_header {
@@ -52,12 +52,13 @@ button {
 
 ul, li {
     list-style: none;
-    display: table-cell;
+    display: inline-block;
 }
 
 li {
     border:1px solid grey;
     border-radius: 30px;
+    margin-right: 10px;
 }
 
 .p_f {
@@ -67,4 +68,36 @@ li {
 .fas, .fa-solid {
     color: blue;
     margin-left: 10px;
+}
+
+.fa-map-marker-alt {
+    background-color: gray;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: black;
+}
+
+input {
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+}
+
+li:hover {
+    background-color: aqua;
+}
+
+.h3_f, li {
+    padding: 10px;
+}
+
+.fa-info {
+    border:1px solid grey;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100%;
 }
