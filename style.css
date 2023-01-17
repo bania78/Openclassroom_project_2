@@ -24,7 +24,7 @@ h1, h2, .h3_f, form, .end_header {
     margin-left: 75px;
 }
 
-h2 {
+h2, .h3_heb {
     font-weight: normal;
     color: gray;
 }
@@ -59,6 +59,7 @@ li {
     border:1px solid grey;
     border-radius: 30px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .p_f {
@@ -107,4 +108,30 @@ li:hover {
 .info {
     padding-bottom: 5px;
     color: grey;
+}
+
+.hebergement {
+    width : 305px;
+}
+
+.pop {
+    width: 150px;
+}
+
+.heb {
+    box-shadow: 10px 5px 5px grey;
+    border:5px solid white;
+    width : 300px;
+    height : 150px;
+    overflow:hidden;
+}
+
+.h2_heb {
+    color: black;
+}
+
+.div_heb {
+    border:1px solid grey;
+    background-color: gray;
+    border-radius: 30px;
 }
