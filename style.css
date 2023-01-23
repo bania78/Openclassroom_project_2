@@ -1,11 +1,11 @@
 .nav_header {
-    margin: 20px;
-    padding: 50px;
+    margin: 3%;
+    padding: 3%;
     justify-content: space-between;
 }
 
 a {
-    margin: 30px;
+    margin: 10px;
     color: black;
     text-decoration: none;
     font-size: 1.2em;
@@ -16,12 +16,13 @@ a:hover {
 }
 
 .logo {
-    width: 150px;
-    height: 50px;
+    width: 10%;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, .h3_f, form, .end_header {
-    margin-left: 75px;
+    margin-left: 3%;
 }
 
 h2, .h3_heb {
@@ -39,6 +40,7 @@ button {
     color: white;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    padding: 1.2%;
 }
 
 .filtres, .nav_header, form, .end_header {
@@ -46,67 +48,68 @@ button {
     align-items: flex-start;
 }
 
+.filtres {
+    margin-top: 2%;
+}
+
 .nav_header {
     justify-content: space-between;
 }
 
-ul, li {
+.fil {
     list-style: none;
     display: inline-block;
+    width: 50%;
 }
 
 li {
+    display: inline;
     border:1px solid grey;
     border-radius: 30px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 1%;
+    margin-bottom: 1%;
 }
 
 .p_f {
-    margin: 5px;
+    margin: 1%;
 }
 
 .fas, .fa-solid {
     color: blue;
-    margin-left: 10px;
+    margin-left: 1%;
 }
 
 .fa-map-marker-alt {
     background-color: gray;
-    padding: 10px;
+    padding: 14px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     color: black;
 }
 
 input {
-    padding: 8px;
-}
-
-button {
-    padding: 10px;
+    padding: 1%;
 }
 
 li:hover {
     background-color: aqua;
 }
 
-.h3_f, li {
-    padding: 10px;
+li {
+    padding: 2%;
+    background-color: white;
 }
 
 .fa-info {
     border:1px solid grey;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 100%;
-    margin-top: 10px;
-    margin-right: 5px;
+    margin-right: 1%;
 }
 
 .info {
-    padding-bottom: 5px;
     color: grey;
 }
 
@@ -118,18 +121,20 @@ li:hover {
 }
 
 .pop {
-    width: 150px;
+    width: 40%;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
 }
 
 .heb {
     box-shadow: 10px 5px 5px grey;
     border: 2px solid white;
     width: 30%;
-    height: 300px;
+    height: 200px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0px;
     padding: 0px;
 }
@@ -141,8 +146,25 @@ li:hover {
 
 .div_heb {
     border:1px solid grey;
-    background-color: gray;
+    background-color: rgb(204, 197, 197);
     border-radius: 30px;
+    float: left;
+    width: 60%;
+    margin-left: 3%;
+}
+
+.div_pop {
+    border:1px solid grey;
+    background-color: rgb(204, 197, 197);
+    border-radius: 30px;
+    width: 30%;
+    float: right;
+    margin-right: 3%;
+}
+
+.div_heb_pop {
+    display: inline;
+    gap: 10px;
 }
 
 .carte {
@@ -152,7 +174,7 @@ li:hover {
 }
 
 .écrit_carte {
-    margin-bottom: 5%;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -162,4 +184,56 @@ li:hover {
 
 .grey_star {
     color: grey;
+}
+
+.carte_pop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.li_pop {
+    box-shadow: 10px 5px 5px grey;
+    border: 2px solid white;
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.star {
+    display: flex;
+    align-items: flex-start;
+}
+
+.h2_heb, .h2_pop {
+    font-size: 1em;
+    color: black;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.h3_heb, .h3_pop {
+    font-size: 0.8em;
+    color: grey;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.first {
+    margin-left: 5%;
 }
