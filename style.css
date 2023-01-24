@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-    color: blue;
+    color: #0065FC;
 }
 
 .logo {
@@ -35,7 +35,7 @@ h2, .h3_heb {
 }
 
 button {
-    background-color: blue;
+    background-color: #0065FC;
     border: none;
     color: white;
     border-top-right-radius: 10px;
@@ -75,12 +75,12 @@ li {
 }
 
 .fas, .fa-solid {
-    color: blue;
+    color: #0065FC;
     margin-left: 1%;
 }
 
 .fa-map-marker-alt {
-    background-color: gray;
+    background-color: #F2F2F2;
     padding: 14px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -92,7 +92,7 @@ input {
 }
 
 .li_fil:hover {
-    background-color: aqua;
+    background-color: #DEEBFF;
 }
 
 li {
@@ -145,8 +145,8 @@ li {
 }
 
 .div_heb {
-    border:1px solid grey;
-    background-color: rgb(204, 197, 197);
+    border:1px solid #F2F2F2;
+    background-color: #F2F2F2;
     border-radius: 30px;
     float: left;
     width: 60%;
@@ -155,8 +155,8 @@ li {
 }
 
 .div_pop {
-    border:1px solid grey;
-    background-color: rgb(204, 197, 197);
+    border:1px solid #F2F2F2;
+    background-color: #F2F2F2;
     border-radius: 30px;
     width: 30%;
     float: right;
@@ -263,4 +263,37 @@ li {
     height: 85%;
     margin: 0px;
     padding: 0px;
+}
+
+.div_foot {
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: flex-start;
+}
+
+.content_foot {
+    margin-top: 3%;
+    width: 30%;
+    margin-left: 8%;
+}
+
+.h2_foot {
+    font-size: 1em;
+    color: black;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 5%;
+}
+
+.h3_foot {
+    font-size: 0.8em;
+    color: black;
+    padding: 0px;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+section {
+    margin-bottom: 5%;
 }
