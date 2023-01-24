@@ -91,7 +91,7 @@ input {
     padding: 1%;
 }
 
-li:hover {
+.li_fil:hover {
     background-color: aqua;
 }
 
@@ -129,7 +129,7 @@ li {
 
 .heb {
     box-shadow: 10px 5px 5px grey;
-    border: 2px solid white;
+    border: 5px solid white;
     width: 30%;
     height: 200px;
     overflow: hidden;
@@ -151,6 +151,7 @@ li {
     float: left;
     width: 60%;
     margin-left: 3%;
+    margin-bottom: 5%;
 }
 
 .div_pop {
@@ -160,6 +161,7 @@ li {
     width: 30%;
     float: right;
     margin-right: 3%;
+    margin-bottom: 5%;
 }
 
 .div_heb_pop {
@@ -194,13 +196,13 @@ li {
 
 .li_pop {
     box-shadow: 10px 5px 5px grey;
-    border: 2px solid white;
+    border: 5px solid white;
     width: 90%;
-    height: 100px;
+    height: 135px;
     overflow: hidden;
     display: flex;
-    align-items: flex-start;
     margin: 0px;
+    margin-bottom: 5%;
     padding: 0px;
 }
 
@@ -209,6 +211,7 @@ li {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    width: 60%;
 }
 
 .star {
@@ -216,7 +219,7 @@ li {
     align-items: flex-start;
 }
 
-.h2_heb, .h2_pop {
+.h2_heb, .h2_pop, .h2_act {
     font-size: 1em;
     color: black;
     padding: 0px;
@@ -236,4 +239,28 @@ li {
 
 .first {
     margin-left: 5%;
+}
+
+.act {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.li_act {
+    box-shadow: 10px 5px 5px grey;
+    border: 0px solid white;
+    width: 23%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.img_act {
+    height: 85%;
+    margin: 0px;
+    padding: 0px;
 }
