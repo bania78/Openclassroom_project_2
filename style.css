@@ -4,6 +4,10 @@
     justify-content: space-between;
 }
 
+body {
+    font-family: Raleway;
+}
+
 a {
     margin: 10px;
     color: black;
@@ -27,7 +31,6 @@ h1, h2, .h3_f, form, .end_header {
 
 h2, .h3_heb {
     font-weight: normal;
-    color: gray;
 }
 
 .p_f {
@@ -41,6 +44,7 @@ button {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 1.2%;
+    font-weight: bold;
 }
 
 .filtres, .nav_header, form, .end_header {
@@ -50,6 +54,7 @@ button {
 
 .filtres {
     margin-top: 2%;
+    font-weight: bold;
 }
 
 .nav_header {
@@ -59,7 +64,7 @@ button {
 .fil {
     list-style: none;
     display: inline-block;
-    width: 50%;
+    width: 70%;
 }
 
 li {
@@ -96,7 +101,7 @@ input {
 }
 
 li {
-    padding: 2%;
+    padding: 1%;
     background-color: white;
 }
 
@@ -107,10 +112,6 @@ li {
     padding-right: 15px;
     border-radius: 100%;
     margin-right: 1%;
-}
-
-.info {
-    color: grey;
 }
 
 .hebergement {
@@ -226,6 +227,7 @@ li {
     margin-top: 0px;
     margin-bottom: 5%;
     margin-left: 5%;
+    font-weight: bold;
 }
 
 .h3_heb, .h3_pop {
@@ -235,6 +237,7 @@ li {
     margin-top: 0px;
     margin-left: 5%;
     margin-bottom: 5%;
+    font-weight: normal;
 }
 
 .first {
@@ -284,6 +287,7 @@ li {
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 5%;
+    font-weight: bold;
 }
 
 .h3_foot {
