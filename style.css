@@ -301,3 +301,18 @@ li {
 section {
     margin-bottom: 5%;
 }
+
+.title {
+    font-size: 1.5em;
+}
+
+.fa-chart-line {
+    float: right;
+    margin-left: 23%;
+    margin-top: 6%;
+}
+
+.div_title {
+    display: flex;
+    align-items: flex-start;
+}
