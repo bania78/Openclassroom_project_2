@@ -129,7 +129,7 @@ li {
 }
 
 .heb {
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 2px 2px 2px grey;
     border: 5px solid white;
     width: 30%;
     height: 200px;
@@ -196,7 +196,7 @@ li {
 }
 
 .li_pop {
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 2px 2px 2px grey;
     border: 5px solid white;
     width: 90%;
     height: 135px;
@@ -251,7 +251,7 @@ li {
 }
 
 .li_act {
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 2px 2px 2px grey;
     border: 0px solid white;
     width: 23%;
     height: 400px;
