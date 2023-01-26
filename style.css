@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 
-.link {
+.link_one, .link_two {
     margin: 10px;
     color: black;
     font-size: 1.2em;
@@ -326,4 +326,50 @@ section {
 
 .a_act {
     width: 23%;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+
+    .nav_header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .but_head {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: flex;
+        align-items: flex-start;
+        margin-left: 8%;
+    }
+
+    .link_one {
+        margin-right: 20%;
+    }
+
+    .link_two {
+        margin-left: 20%;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+    
+    .s_title {
+        font-size: 1.2em;
+    }
+
+    input {
+        padding: 2.5%;
+    }
+
+    button {
+        padding: 3%;
+    }
 }
