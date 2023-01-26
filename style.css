@@ -68,7 +68,7 @@ button {
 .fil {
     list-style: none;
     display: inline-block;
-    width: 70%;
+    width: 100%;
 }
 
 li {
@@ -334,6 +334,45 @@ section {
 
 .a_act {
     width: 23%;
+}
+
+@media screen and (min-width: 768px) {
+    .div_heb_pop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div_heb {
+        margin: auto;
+        width: 95%;
+        margin-bottom: 5%;
+    }
+
+    .div_pop {
+        margin: auto;
+        width: 95%;
+    }
+
+    .carte_pop {
+        flex-direction: initial;
+    }
+
+    .a_pop {
+        width: 30%;
+    }
+
+    .div_title {
+        width: 95%;
+    }
+
+    .fa-chart-line {
+        margin-left: 65%;
+        margin-top: 3%;
+    }
+
+    .li_act {
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 768px) {
