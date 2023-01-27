@@ -336,7 +336,7 @@ section {
     width: 23%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     .div_heb_pop {
         display: flex;
         flex-direction: column;
