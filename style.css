@@ -50,6 +50,10 @@ button {
     font-weight: bold;
 }
 
+li {
+    list-style: none;
+}
+
 .filtres, .nav_header, form, .end_header {
     display: flex;
     align-items: flex-start;
@@ -71,7 +75,7 @@ button {
     width: 100%;
 }
 
-li {
+.heb, .li_pop, .li_act {
     display: inline;
     border:1px solid grey;
     border-radius: 30px;
@@ -105,11 +109,6 @@ input {
 
 .li_fil:hover {
     background-color: #DEEBFF;
-}
-
-li {
-    padding: 1%;
-    background-color: white;
 }
 
 .fa-info {
@@ -399,6 +398,7 @@ section {
     .link_one {
         margin-right: 15%;
         font-size: 1em;
+        border-bottom: #F2F2F2;
     }
 
     .link_two {
