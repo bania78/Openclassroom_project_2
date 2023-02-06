@@ -12,10 +12,20 @@ a {
     text-decoration: none;
 }
 
+.but_head {
+    width: 25%;
+}
+
 .link_one, .link_two {
-    margin: 10px;
     color: black;
     font-size: 1.2em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.link_one:hover, .link_two:hover {
+    border-top: 5px solid #0065FC;
+    padding-top: 26.5%;
 }
 
 a:hover {
@@ -239,6 +249,7 @@ input {
 
 .star {
     display: flex;
+    align-items: flex-end;
 }
 
 .h2_heb, .h2_pop, .h2_act {
@@ -357,6 +368,15 @@ section {
         flex-direction: column;
     }
 
+    .but_head {
+        width: 50%;
+        margin-right: -15%;
+    }
+    
+    .link_one:hover, .link_two:hover {
+        padding-top: 13.2%;
+    }
+
     .div_heb {
         width: 95%;
         margin-bottom: 5%;
@@ -423,6 +443,8 @@ section {
 
     .link_one:hover, .link_two:hover {
         border-bottom: 2px solid #0065FC;
+        border-top: 0px solid #0065FC;
+        padding-top: 0%;
     }
 
     .link_two {
