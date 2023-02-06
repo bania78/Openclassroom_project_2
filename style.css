@@ -239,7 +239,6 @@ input {
 
 .star {
     display: flex;
-    align-items: flex-start;
 }
 
 .h2_heb, .h2_pop, .h2_act {
@@ -396,29 +395,43 @@ section {
         margin-bottom: 10%;
     }
 
+    .link_one:hover {
+        border-bottom: 2px solid #F2F2F2;
+    }
+
     .nav_header {
         display: flex;
         flex-direction: column;
     }
 
     .but_head {
-        margin-left: auto;
-        margin-right: auto;
         text-align: center;
         display: flex;
         align-items: flex-start;
-        margin-left: 8%;
+        width: 118%;
+        margin-left: -9%;
     }
 
     .link_one {
-        margin-right: 15%;
         font-size: 1em;
-        border-bottom: #F2F2F2;
+        margin-left: -8%;
+        padding-right: 25%;
+        padding-left: 20%;
+        padding-bottom: 5%;
+        border-bottom: 2px solid #F2F2F2;
+    }
+
+    .link_one:hover, .link_two:hover {
+        border-bottom: 2px solid #0065FC;
     }
 
     .link_two {
-        margin-left: 15%;
         font-size: 1em;
+        margin-left: -16%;
+        padding-right: 30%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        border-bottom: 2px solid #F2F2F2;
     }
 
     .title {
