@@ -51,7 +51,8 @@ button {
 }
 
 .li_heb {
-    width: 30%;
+    width: 28%;
+    margin-bottom: 3%;
 }
 
 .li_pop {
@@ -191,7 +192,9 @@ input {
 .carte {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5%;
+    margin: 0%;
+    padding-left: 3%;
 }
 
 .écrit_carte {
@@ -211,6 +214,8 @@ input {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-left: 6%;
+    padding: 0%;
 }
 
 .art_pop {
@@ -328,6 +333,7 @@ section {
 .title {
     font-size: 1.5em;
     font-weight: bold;
+    margin-left: 3%;
 }
 
 .fa-chart-line {
@@ -339,6 +345,7 @@ section {
 .div_title {
     display: flex;
     align-items: flex-start;
+    margin-left: 3%;
 }
 
 .li_act {
@@ -352,13 +359,11 @@ section {
     }
 
     .div_heb {
-        margin: auto;
         width: 95%;
         margin-bottom: 5%;
     }
 
     .div_pop {
-        margin: auto;
         width: 95%;
     }
 
