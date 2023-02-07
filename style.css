@@ -168,7 +168,7 @@ input {
     flex-direction: column;
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 95%;
 }
 
 .h2_pop {
@@ -421,6 +421,10 @@ section {
         border-bottom: 2px solid #F2F2F2;
     }
 
+    .li_pop {
+        width: 93%;
+    }
+
     .nav_header {
         display: flex;
         flex-direction: column;
@@ -451,6 +455,11 @@ section {
         border-bottom: 2px solid #0065FC;
         border-top: 0px solid #0065FC;
         padding-top: 0%;
+    }
+
+    .act {
+        padding: 0%;
+        margin-left: 3%;
     }
 
     .link_two {
@@ -551,7 +560,7 @@ section {
     }
 
     .li_act {
-        width: 90%;
+        width: 95%;
     }
 
     .art_act {
@@ -568,5 +577,9 @@ section {
     .content_foot {
         width: 100%;
         margin-top: 10%;
+    }
+
+    .div_heb {
+        margin-left: 3%;
     }
 }
