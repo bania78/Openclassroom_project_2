@@ -251,7 +251,6 @@ input {
 
 .star {
     display: flex;
-    align-items: flex-end;
 }
 
 .h2_heb, .h2_pop, .h2_act {
@@ -435,6 +434,10 @@ section {
         margin-left: -9%;
     }
 
+    input {
+        width: 80%;
+    }
+
     .link_one {
         font-size: 1em;
         margin-left: -8%;
@@ -492,17 +495,21 @@ section {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
+        padding: 0%;
+        margin-left: 3%;
     }
 
     .li_fil {
-        display: inline;
+        display: flex;
+        align-items: center;
         width: 39%;
         margin: 0px;
-        padding: 10px;
+        padding: 2%;
     }
 
     .p_f {
         font-size: 0.5em;
+        margin-left: 5%;
     }
 
     .fa-info {
