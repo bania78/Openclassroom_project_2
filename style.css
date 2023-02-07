@@ -101,7 +101,7 @@ li {
 .heb, .art_pop, .art_act, .li_fil {
     display: inline;
     border:1px solid grey;
-    border-radius: 30px;
+    border-radius: 20px;
     margin-right: 1%;
     margin-bottom: 1%;
 }
@@ -163,6 +163,7 @@ input {
     border: 5px solid white;
     overflow: hidden;
     display: flex;
+    background-color: white;
     height: 200px;
     flex-direction: column;
     margin: 0px;
@@ -231,6 +232,7 @@ input {
 .art_pop {
     box-shadow: 2px 2px 2px grey;
     border: 5px solid white;
+    background-color: white;
     height: 135px;
     overflow: hidden;
     display: flex;
@@ -290,6 +292,7 @@ input {
     box-shadow: 2px 2px 2px grey;
     border: 0px solid white;
     height: 400px;
+    background-color: white;
     overflow: hidden;
     display: flex;
     flex-direction: column;
