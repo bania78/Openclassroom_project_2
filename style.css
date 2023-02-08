@@ -247,10 +247,13 @@ input {
     margin: 0;
     padding: 0;
     width: 60%;
+    position: relative;
 }
 
 .star {
     display: flex;
+    position: absolute;
+    bottom: 5%;
 }
 
 .h2_heb, .h2_pop, .h2_act {
@@ -265,7 +268,7 @@ input {
 
 .h3_heb, .h3_pop {
     font-size: 0.8em;
-    color: grey;
+    color: black;
     padding: 0px;
     margin-top: 0px;
     margin-left: 5%;
@@ -459,7 +462,7 @@ section {
 
     .act {
         padding: 0%;
-        margin-left: 3%;
+        margin-left: 5%;
     }
 
     .link_two {
@@ -580,6 +583,6 @@ section {
     }
 
     .div_heb {
-        margin-left: 3%;
+        margin-left: 2%;
     }
 }
