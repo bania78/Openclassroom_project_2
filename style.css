@@ -256,6 +256,10 @@ input {
     bottom: 5%;
 }
 
+img {
+    object-fit: cover;
+}
+
 .h2_heb, .h2_pop, .h2_act {
     font-size: 1em;
     color: black;
