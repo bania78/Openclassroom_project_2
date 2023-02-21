@@ -8,6 +8,10 @@ body {
     font-family: Raleway;
 }
 
+input {
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
 }

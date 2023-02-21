@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Booki</title>
     <link href="style.css" rel="stylesheet">
@@ -9,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2e7a3340e1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -16,8 +18,8 @@
         <nav class="nav_header">
             <img class="logo" alt="logo booki" src="images/logo/Booki.png">
             <div class="but_head">
-                <a class="link_one" href=".div_heb">Hébergements</a>
-                <a class="link_two" href="activités.html">Activités</a>
+                <a class="link_one" href="#hebergement">Hébergements</a>
+                <a class="link_two" href="#activite">Activités</a>
             </div>
         </nav>
         <h1 class="title">Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -26,7 +28,7 @@
             <div class="icon">
                 <i class="fas fa-map-marker-alt"></i>
             </div>
-            <input>
+            <input type="search" placeholder="Marseille, France">
             <button>
                 Rechercher
             </button>
@@ -59,7 +61,7 @@
     </header>
     <main>
         <div class="div_heb_pop">
-            <section>
+            <section id="hebergement">
                 <div class="div_heb">
                     <h2 class="title">Hébergements à Marseille</h2>
                     <ul class="carte">
@@ -232,7 +234,7 @@
         </div>
         <section>
             <h2 class="title">Activités à Marseille</h2>
-            <ul class="act">
+            <ul class="act" id="activite">
                 <li class="li_act">
                     <a class="a_act" href="#">
                         <article class="art_act">
