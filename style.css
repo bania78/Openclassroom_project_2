@@ -382,16 +382,16 @@ img {
 
     .but_head {
         width: 50%;
-        margin-right: -15%;
     }
-    
-    .link_one:hover, .link_two:hover {
-        padding-top: 13.2%;
+
+    .li_fil {
+        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .div_heb {
         width: 95%;
-        margin-bottom: 5%;
     }
 
     .div_pop {
@@ -400,6 +400,7 @@ img {
 
     .carte_pop {
         flex-direction: initial;
+        gap: 20px;
     }
 
     .li_pop {
@@ -411,8 +412,7 @@ img {
     }
 
     .fa-chart-line {
-        margin-left: 65%;
-        margin-top: 3%;
+        margin-left: 400px;
     }
 
     .art_act {
