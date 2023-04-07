@@ -374,6 +374,15 @@ img {
     width: 23%;
 }
 
+i[class="fa fa-magnifying-glass"] {
+    display: none;
+}
+
+.search {
+    margin: 0;
+    padding: 0;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .div_heb_pop {
         display: flex;
@@ -403,6 +412,10 @@ img {
         gap: 20px;
     }
 
+    .h2_pop {
+        font-size: 0.9em;
+    }
+
     .li_pop {
         width: 30%;
     }
@@ -412,7 +425,7 @@ img {
     }
 
     .fa-chart-line {
-        margin-left: 400px;
+        margin-left: 425px;
     }
 
     .art_act {
@@ -426,6 +439,19 @@ img {
         margin-right: auto;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    .input {
+        width: 80%;
+    }
+
+    .search {
+        display: none;
+    }
+
+    i[class="fa fa-magnifying-glass"] {
+        display: block;
+        padding: 1px;
     }
 
     body {
@@ -457,8 +483,6 @@ img {
 
     .link_one {
         font-size: 1em;
-        padding-right: 40px;
-        padding-left: 50px;
         padding-bottom: 20px;
         border-bottom: 2px solid #F2F2F2;
     }
@@ -475,8 +499,6 @@ img {
 
     .link_two {
         font-size: 1em;
-        padding-right: 60px;
-        padding-left: 40px;
         padding-bottom: 20px;
         border-bottom: 2px solid #F2F2F2;
     }
@@ -553,7 +575,7 @@ img {
         border: 0px;
         margin: 0;
         padding: 0;
-        width: 100%;
+        width: 99%;
         border-radius: 0%;
         display: flex;
         flex-direction: column;
@@ -568,12 +590,8 @@ img {
     }
 
     .carte {
-        margin-left: 20px;
         padding: 0;
-    }
-
-    #inside {
-        margin-left: 20px;
+        justify-content: center;
     }
 
     .li_heb {
@@ -595,7 +613,7 @@ img {
     }
 
     .content_foot {
-        width: 100%;
+        width: 90%;
         margin-top: 30px;
         margin-left: 20px;
     }
