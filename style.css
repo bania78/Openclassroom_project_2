@@ -355,7 +355,7 @@ img {
     font-weight: bold;
 }
 
-#inside {
+.inside {
     margin-left: 30px;
 }
 
@@ -376,11 +376,6 @@ img {
 
 i[class="fa fa-magnifying-glass"] {
     display: none;
-}
-
-.search {
-    margin: 0;
-    padding: 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -452,6 +447,13 @@ i[class="fa fa-magnifying-glass"] {
     i[class="fa fa-magnifying-glass"] {
         display: block;
         padding: 1px;
+        background-color: #0065FC;
+        border: none;
+        color: white;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 14px;
+        font-weight: bold;
     }
 
     body {
