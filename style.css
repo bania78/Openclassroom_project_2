@@ -117,6 +117,10 @@ h1.title {
     margin-top: 60px;
 }
 
+h2.title {
+    width: 65%;
+}
+
 ul.act {
     padding: 0;
 }
@@ -378,7 +382,7 @@ i[class="fa fa-magnifying-glass"] {
     display: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .div_heb_pop {
         display: flex;
         flex-direction: column;
@@ -425,6 +429,9 @@ i[class="fa fa-magnifying-glass"] {
 
     .art_act {
         height: 250px;
+    }
+    .p_f {
+        font-size: 0.8em;
     }
 }
 
